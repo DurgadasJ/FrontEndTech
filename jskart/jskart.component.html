@@ -1,0 +1,85 @@
+<style>
+    body{
+        margin: 0;
+    }
+    .head{
+        background-color: #2874f0;
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;     /* Centers vertically */
+        height: 60px;            /* Set height for vertical centering */
+        position: relative;  
+    }
+    .jskart{
+        color: blanchedalmond;
+        font-size: 23px;
+        font-weight: bold;
+        margin-right: 90px;
+    }
+    .login{
+        /* display: flex; */
+        align-items: center;
+        color:#2874f0;
+        font-weight: 500;
+        background-color: #fff;
+        border-radius: 2px;
+        padding: 10px;
+        margin-left: 70%;
+        margin-top: 3px;
+    }
+    .cart{
+        color:#2874f0;
+        font-weight: 500;
+        background-color: #fff;
+        padding: 10px;
+        margin-left: 120%;
+    }
+    .dealer{
+        color:#2874f0;
+        font-weight: 500;
+        background-color: #fff;
+        padding: 10px;
+        margin-left: 120%;
+    }
+    .search{
+        box-sizing: border-box;
+        margin: 0;
+        width: 300px;  
+        padding: 10px;
+        margin-right: 90px;
+    }
+    .data{
+        display: flex;
+        justify-content: space-evenly; 
+        width: 100vw;
+        padding:10px;
+        background:rgb(216, 216, 255);    
+    }
+</style>
+<body>
+    <div class="head">
+        <a class="jskart" >jskart works</a>
+        <div>
+            <input class="search" type="text" title="Search for products,brands and mmore"
+                placeholder="Search for products,brands and more" value>
+        </div>
+        <div>
+            <a class="login" href="/login">Login</a>
+        </div>
+        <div>
+            <a class="cart">Cart</a>
+        </div>
+        <div>
+            <a class="dealer">Dealer</a>
+        </div>
+    </div>
+    <div>
+        <div class="data">
+            <a class="Kilos" >Kilos</a>
+            <a class="Mobiles">Mobiles</a>
+            <a class="Fashion">Fashion</a>
+            <a class="Electornics">Electornics</a>
+            <a class="Appliances">Appliances</a>
+        </div>
+    </div>
+</body>
